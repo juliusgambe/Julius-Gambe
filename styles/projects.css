@@ -1,0 +1,116 @@
+#wide-image{
+    height: 100%;
+}
+
+/* Projects Title*/
+#projects-title-section{
+    padding: 4% 8% 0% 8%;
+}
+
+
+/* Old Title: Use for when you want to do z-index stuff again */
+#title-section{
+    height: 50%;
+    padding: 4% 8% 0% 8%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+#title-sub-section{
+    padding: 8% 10%;
+    text-align: left;
+}
+
+#title-header{
+    font-size: 3.5rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: left;
+}
+
+#title-sub-header{
+    font-family: "Roboto";
+    font-weight: 100;
+    text-align: left;
+}
+#hero-image-section{
+    text-align: left;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    z-index: -2;
+}
+
+#hero-image{
+    position: absolute;
+    z-index: 0;
+    top: 8%;
+    width: 30%;
+}
+
+@media (max-width: 1200px) {
+    #title-section{
+        height: 50%;
+    }
+    #hero-image-section{
+        text-align: left;
+    }
+    #hero-image{
+        position: absolute;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #title-section{
+        height: 80%;
+    }
+    #hero-image-section{
+        text-align: center;
+    }
+    #hero-image{
+        position: relative;
+        bottom: -50px;
+        width: 100%;
+    }
+}
+/* Quick Facts */
+#quick-facts-section{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    #quick-facts-section{
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* About Me */
+#about-me-section{
+    position: relative;
+    /* z-index: 1; */
+}
+
+@media (max-width: 1000px) {
+    #about-me-section{
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.about-me-sub-section{
+    background-color: white;
+    color: 212738;
+}
+
+#projects-section{
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    font-family: "Roboto";
+}
+
+span{
+    display: inline-block;
+}
+
+a{
+    color: inherit;
+}
+/* Description */
+
+.description{
+    padding: 16px;
+}
+
+/* Images */
+
+img{
+    max-width: 100%;
+    /* display: inline-block; */
+    /* background-size: contain; */
+}
+
+.img-left{
+    /* float: left; */
+}
+
+.img-right{
+    /* float: right; */
+}
+
+/* Icons */
+.icon{
+    font-size: 2rem;
+    margin: 4px;
+}
+
+.medium-icon{
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+}
+.large-icon{
+    font-size: 6rem;
+    margin-bottom: 8px;
+}
+
+/* Navigation */
+.navigation-menu{
+    padding: 1% 8%;
+    
+}
+
+/* Sections */
+.section-grey{
+    color: white;
+    background-color: #161a1d;
+    margin: 0%;
+    padding: 4% 8%;
+    text-align: left;
+}
+
+.section-white{
+    background-color: white;
+    margin: 0%;
+    padding: 4% 8%;
+}
+
+.sub-section-row{
+    margin: 32px 0px;
+    padding: 0px;
+}
+
+.sub-section-plain{
+    padding: 16px;
+}
+
+.sub-section-white{
+    padding: 16px;
+    /* border-radius: 15px; */
+    height: 100%;
+    background-color: white;
+    color: #161a1d;
+}
+
+.sub-section-grey{
+    padding: 16px;
+    margin: 4% 0%;
+    border-radius: 15px;
+    /* height: 100%; */
+    vertical-align: middle;
+    background-color:#161a1d;
+    color: white;
+    
+}
+
+.sub-section-picture{
+    padding: 0px;
+    border-radius: 0px;   
+    /* white-space: normal;
+    overflow: hidden; */
+}
+
+.sub-section-picture-screenshot{
+    padding: 0px;
+}
+.sub-section-picture-description{
+    padding: 16px;
+    height: 100%;
+}
+/* Progress Bar */
+.progressBar{
+    width: 100%;
+    background-color: #161a1d;
+    border-radius: 15px;
+}
+
+.progressBarProgress{
+    border-radius: 15px;
+    height:10px;
+    background-color: coral;
+}
+
+/* Forms */
+
+.form-section{
+    width: 50%;
+}
+
+@media (max-width: 1200px){
+    .form-section{
+        width: 100%;
+    }
+}
+
+label {
+    display: block;
+    width: 50%;
+    margin: 16px;
+    font-size: 1.5rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 16px;
+}
+
+textarea {
+    display: block;
+    width: 50%;
+    margin: 16px;
+}

@@ -1,0 +1,141 @@
+#title-section{
+    height: 50%;
+    padding: 4% 8% 0% 8%;
+    background-color: white;
+    text-align: center;
+}
+
+#title-sub-section{
+    padding: 8% 10%;
+    text-align: left;
+}
+
+#title-header{
+    font-size: 3.5rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: left;
+}
+
+#title-sub-header{
+    font-family: "Roboto";
+    font-weight: 100;
+    text-align: left;
+}
+#hero-image-section{
+    text-align: left;
+}
+
+#hero-image{
+    position: absolute;
+    z-index: 0;
+    top: 8%;
+    width: 30%;
+}
+
+@media (max-width: 1200px) {
+    #title-section{
+        height: 50%;
+    }
+    #hero-image-section{
+        text-align: left;
+    }
+    #hero-image{
+        position: absolute;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #title-section{
+        height: 80%;
+    }
+    #hero-image-section{
+        text-align: center;
+    }
+    #hero-image{
+        position: relative;
+        bottom: -50px;
+        width: 100%;
+    }
+}
+/* Quick Facts */
+#quick-facts-section{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    #quick-facts-section{
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* About Me */
+#about-me-section{
+    position: relative;
+    /* z-index: 1; */
+}
+
+@media (max-width: 1000px) {
+    #about-me-section{
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.about-me-sub-section{
+    background-color: white;
+    color: 212738;
+}
+/* Skills & Hobbies */
+#progressBarSwift{
+    width: 1%;
+    background-color: coral;
+}
+
+#progressBarPython{
+    width: 1%;
+    background-color: indigo;
+}
+
+#progressBarHTML{
+    width: 1%;
+    background-color: green;
+}
+#progressBarCSS{
+    width: 1%;
+    background-color: orange;
+}
+#progressBarJS{
+    width: 1%;
+    background-color: yellow;
+}
+#progressBarUIKit{
+    width: 1%;
+    background-color: red;
+}
+#progressBarFirebase{
+    width: 1%;
+    background-color: salmon;
+}
+#progressBarRealm{
+    width: 1%;
+    background-color: purple;
+}
+/* Awards */
+#awards-section{
+    background-color: #161a1d;
+}
+
+/* Awards */
+.timeline{
+
+}
+
+#contact-me-section{
+
+}
+
