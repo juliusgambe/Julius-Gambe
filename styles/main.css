@@ -10,6 +10,10 @@ span{
 a{
     color: inherit;
 }
+
+p{
+    text-align: justify;
+}
 /* Description */
 
 .description{
